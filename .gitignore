@@ -1,0 +1,14 @@
+# .gitignore 示例
+# 忽略 Verilator 编译生成的 C++ 目标文件目录
+obj_dir/
+
+# 忽略所有的波形文件（GTKWave 查看用的）
+*.vcd
+*.fst
+
+# 忽略编译出来的二进制可执行文件
+*.out
+*.exe
+
+# 忽略 VSCode 等编辑器的本地缓存
+.vscode/
