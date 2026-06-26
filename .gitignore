@@ -12,3 +12,6 @@ obj_dir/
 
 # 忽略 VSCode 等编辑器的本地缓存
 .vscode/
+
+# Ignore Obsidian configuration vault
+.obsidian/

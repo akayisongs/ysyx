@@ -73,6 +73,9 @@ git diff # 比较工作区 vs 暂存区，看你改了但还没 add 的内容
 # 7. `chore` (Chore - 杂项/构建) 用于构建过程、辅助工具、配置文件的变动。
 git commit -m "简要的描述"
 
+# 如果发现上次的提交也缺失或者上次提交的描述需要修改，如果觉得描述不需要修改，则将-m以及后面的内容修改为--no-edit即可
+git commit --amend -m "描述"
+
 # 查看提交历史，HEAD -> main表示 HEAD 当前指向 main 分支的最新 commit。HEAD 记录的就是「你当前在哪个 commit 上」——切换分支时，HEAD 会跟着移动。
 # git log -n 3 — 只看最近 3 条   git log --oneline — 简洁模式（一行一条）
 git log
